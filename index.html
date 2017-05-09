@@ -1,10 +1,19 @@
-<<<<<<< HEAD
-<h1> Hello Cousere </h1>
-=======
-<h1> Hello Cousere   ddasd
-
- </h1>
-
-
-yxc
->>>>>>> 082aaab199a6a56959abec842a3694846b2ba6cb
+<!DOCTYPE html>
+<html ng-app='DIApp'>
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <title>Dependency Injection in Javascript
+           (and AngularJS)</title>
+  </head>
+  <body>
+    <h1>Dependency Injection in Javascript
+        (and AngularJS)</h1>
+    <div ng-controller='DIController'>
+      <input type="text"
+             ng-model="name"
+            ng-blur="upper()">  {{name}}
+    </div>
+  </body>
+</html>
